@@ -29,7 +29,7 @@ namespace GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             khoitao();
-            Application.Run(new frmManHinhChinh());
+            Application.Run(new FrmSplash());
         }
     }
 }

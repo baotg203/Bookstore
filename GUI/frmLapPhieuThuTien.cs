@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmLapPhieuThuTien : Form
+    public partial class frmLapPhieuThuTien : MaterialForm
     {
         public UInt64 luusotienthu;
         public static string maKH;

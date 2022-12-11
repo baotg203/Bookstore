@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmQuanLyKhachHang : Form
+    public partial class frmQuanLyKhachHang : MaterialForm
     {
         public frmQuanLyKhachHang()
         {
@@ -76,7 +77,7 @@ namespace GUI
         }                       
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
         private void btnKhongluu_Click(object sender, EventArgs e)

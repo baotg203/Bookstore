@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmQuanLyDauSach : Form
+    public partial class frmQuanLyDauSach : MaterialForm
     {
         public static CT_TacGia_DTO c = new CT_TacGia_DTO();
         public frmQuanLyDauSach()
@@ -40,7 +41,7 @@ namespace GUI
         }
         private void frmQuanLyDauSach_Load(object sender, EventArgs e)
         {
-            this.Size = new Size(750, 615);           
+            this.Size = new Size(750, 797);           
             colMaTheLoai.ValueMember = "MaTheLoai";
             colMaTheLoai.DisplayMember = "TenTheLoai";
             colMaTheLoai.DataSource = TheLoai_BUS.GetTheLoaiAll();
@@ -54,7 +55,7 @@ namespace GUI
         }
         private void btnChiTietTacGia_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1248, 615);
+            this.Size = new Size(1248, 797);
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -64,7 +65,7 @@ namespace GUI
 
         private void btnDong_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(750, 615);
+            this.Size = new Size(750, 797);
         }
 
         private void dgvDauSach_RowEnter(object sender, DataGridViewCellEventArgs e)
@@ -91,7 +92,7 @@ namespace GUI
             }
             HienThiDauSach();
             MessageBox.Show("Thêm đầu sách thành công");
-            this.Size = new Size(1248, 615);
+            this.Size = new Size(1248, 797);
         }
         private void btnThem_Click_1(object sender, EventArgs e)
         {
@@ -224,6 +225,11 @@ namespace GUI
             {
                 e.Cancel = true;
             };
+        }
+
+        private void txtTenDauSach_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

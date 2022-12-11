@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmLapPhieuNhapSach : Form
+    public partial class frmLapPhieuNhapSach : MaterialForm
     {
         private static int layNgay;
         private static int layThang;
@@ -33,17 +34,17 @@ namespace GUI
         }
         private void btnChiTiet_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1132, 632);
+            this.Size = new Size(1207, 870);
         }
 
         private void btnDong_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(568, 632);
+            this.Size = new Size(568, 870);
         }
 
         private void frmLapPhieuNhapSach_Load(object sender, EventArgs e)
         {
-            this.Size = new Size(568, 632);            
+            this.Size = new Size(568, 870);            
             HienThiDanhSachPhieuNhap();
             dtpNgayNhap.Value = DateTime.Now;
         }
@@ -78,7 +79,7 @@ namespace GUI
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1132, 632);
+            this.Size = new Size(1207, 870);
             PhieuNhapSach_DTO p = new PhieuNhapSach_DTO();
             p.TongTien = 0;
 

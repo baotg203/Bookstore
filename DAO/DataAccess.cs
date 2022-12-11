@@ -13,7 +13,7 @@ namespace DAO
     {
         private static SqlConnection GetConnection()
         {
-            return new SqlConnection(@"Data Source=.;Initial Catalog=BOOKSTORE;Integrated Security=True");
+            return new SqlConnection(@"Data Source=localhost;Initial Catalog=BOOKSTORE;Integrated Security=True");
         }
         private static SqlConnection cnn;
         public static void OpenConnection()

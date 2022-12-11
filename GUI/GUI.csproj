@@ -12,6 +12,21 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,9 +47,19 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icons8-bookstore-66.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
   <ItemGroup>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -141,6 +166,12 @@
     <Compile Include="frmQuanLyTheLoai.Designer.cs">
       <DependentUpon>frmQuanLyTheLoai.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplash.Designer.cs">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmThayDoiQuyDinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +234,9 @@
     <EmbeddedResource Include="frmQuanLyTheLoai.resx">
       <DependentUpon>frmQuanLyTheLoai.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplash.resx">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmThayDoiQuyDinh.resx">
       <DependentUpon>frmThayDoiQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
@@ -219,6 +253,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -247,6 +282,83 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-and-pencil-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clear-symbol-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checkmark-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-list-view-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-reset-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-reset-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-test-account-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-new-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-more-details-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-remove-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-get-cash-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-save-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-return-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-female-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-royal-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-bookstore-66.ico" />
+    <Content Include="Resources\icons8-bookstore-66.ico" />
+    <Content Include="Resources\icons8-bookstore-66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -65,3 +65,113 @@ D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.csproj.CopyComplete
 D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.exe
 D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.pdb
 D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\GUI.exe.config
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\GUI.exe
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\GUI.pdb
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\BUS.dll
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\DTO.dll
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\DAO.dll
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\BUS.pdb
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\DTO.pdb
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\DAO.pdb
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmBaoCaoCongNo.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmBaoCaoTon.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmDangNhap.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmDanhSachDauSach.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmDanhSachKhachHang.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmDanhSachSach.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmDoiMatKhau.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmHoaDonBanSach.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmLapPhieuNhapSach.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmLapPhieuThuTien.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmManHinhChinh.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmQuanLyDauSach.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmQuanLyKhachHang.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmQuanLySach.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmQuanLyTaiKhoan.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmQuanLyTheLoai.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmThayDoiQuyDinh.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.frmTroGiup.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.exe
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\obj\Debug\GUI.pdb
+C:\Users\Admin\Desktop\NMCNPM\BOOKSTORE\BOOKSTORE\GUI\bin\Debug\MaterialSkin.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\GUI.exe.config
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\GUI.exe
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\GUI.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\BUS.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\DTO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\MaterialSkin.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\DAO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\BUS.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\DTO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\bin\Debug\DAO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmBaoCaoCongNo.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmBaoCaoTon.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmDangNhap.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmDanhSachDauSach.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmDanhSachKhachHang.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmDanhSachSach.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmDoiMatKhau.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmHoaDonBanSach.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmLapPhieuNhapSach.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmLapPhieuThuTien.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmManHinhChinh.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmQuanLyDauSach.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmQuanLyKhachHang.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmQuanLySach.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmQuanLyTaiKhoan.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmQuanLyTheLoai.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmThayDoiQuyDinh.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.frmTroGiup.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.exe
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\GUI\obj\Debug\GUI.FrmSplash.resources
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\GUI.exe.config
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\GUI.exe
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\GUI.pdb
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\BUS.dll
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\DTO.dll
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\MaterialSkin.dll
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\DAO.dll
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\BUS.pdb
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\DTO.pdb
+D:\Workspace\Code\C#\Bookstore\GUI\bin\Debug\DAO.pdb
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmBaoCaoCongNo.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmBaoCaoTon.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmDangNhap.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmDanhSachDauSach.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmDanhSachKhachHang.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmDanhSachSach.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmDoiMatKhau.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmHoaDonBanSach.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmLapPhieuNhapSach.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmLapPhieuThuTien.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmManHinhChinh.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmQuanLyDauSach.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmQuanLyKhachHang.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmQuanLySach.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmQuanLyTaiKhoan.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmQuanLyTheLoai.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.FrmSplash.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmThayDoiQuyDinh.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.frmTroGiup.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.exe
+D:\Workspace\Code\C#\Bookstore\GUI\obj\Debug\GUI.pdb

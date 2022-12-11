@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmDanhSachKhachHang : Form
+    public partial class frmDanhSachKhachHang : MaterialForm
     {
         private static string maKH;//Dùng để lấy mã khách hàng truyền cho form HoaDonBanSach và form LapPhieuThuTien
         private static string soTienNo;

@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,13 +13,12 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmBaoCaoTon : Form
+    public partial class frmBaoCaoTon : MaterialForm
     {
         public frmBaoCaoTon()
         {
             InitializeComponent();
         }
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Close();

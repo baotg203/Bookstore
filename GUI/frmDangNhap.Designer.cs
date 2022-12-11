@@ -28,18 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDangNhap));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
-            this.btnDangNhap = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnDangNhap = new MaterialSkin.Controls.MaterialButton();
+            this.btnThoat = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 32);
+            this.label1.Location = new System.Drawing.Point(46, 232);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 19);
             this.label1.TabIndex = 0;
@@ -48,7 +51,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 72);
+            this.label2.Location = new System.Drawing.Point(46, 292);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 19);
             this.label2.TabIndex = 0;
@@ -56,14 +59,14 @@
             // 
             // txtTaiKhoan
             // 
-            this.txtTaiKhoan.Location = new System.Drawing.Point(130, 29);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(146, 229);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(229, 26);
             this.txtTaiKhoan.TabIndex = 1;
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(130, 69);
+            this.txtMatKhau.Location = new System.Drawing.Point(146, 289);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
             this.txtMatKhau.Size = new System.Drawing.Size(229, 26);
@@ -71,39 +74,64 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(205)))), ((int)(((byte)(0)))));
-            this.btnDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDangNhap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangNhap.ForeColor = System.Drawing.Color.White;
-            this.btnDangNhap.Location = new System.Drawing.Point(160, 112);
+            this.btnDangNhap.AutoSize = false;
+            this.btnDangNhap.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnDangNhap.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDangNhap.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnDangNhap.Depth = 0;
+            this.btnDangNhap.HighEmphasis = true;
+            this.btnDangNhap.Icon = global::GUI.Properties.Resources.icons8_login_64;
+            this.btnDangNhap.Location = new System.Drawing.Point(50, 357);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnDangNhap.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(102, 36);
-            this.btnDangNhap.TabIndex = 3;
-            this.btnDangNhap.Text = "Đăng nhập";
-            this.btnDangNhap.UseVisualStyleBackColor = false;
+            this.btnDangNhap.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnDangNhap.Size = new System.Drawing.Size(158, 36);
+            this.btnDangNhap.TabIndex = 5;
+            this.btnDangNhap.Text = "ĐĂNG NHẬP";
+            this.btnDangNhap.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnDangNhap.UseAccentColor = false;
+            this.btnDangNhap.UseVisualStyleBackColor = true;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(205)))), ((int)(((byte)(0)))));
-            this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.ForeColor = System.Drawing.Color.White;
-            this.btnThoat.Location = new System.Drawing.Point(283, 112);
+            this.btnThoat.AutoSize = false;
+            this.btnThoat.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnThoat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThoat.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnThoat.Depth = 0;
+            this.btnThoat.HighEmphasis = true;
+            this.btnThoat.Icon = global::GUI.Properties.Resources.icons8_logout_64;
+            this.btnThoat.Location = new System.Drawing.Point(270, 357);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnThoat.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(102, 36);
-            this.btnThoat.TabIndex = 4;
-            this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = false;
+            this.btnThoat.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnThoat.Size = new System.Drawing.Size(156, 36);
+            this.btnThoat.TabIndex = 6;
+            this.btnThoat.Text = "THOÁT";
+            this.btnThoat.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnThoat.UseAccentColor = false;
+            this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GUI.Properties.Resources.icons8_test_account_96;
+            this.pictureBox1.Location = new System.Drawing.Point(193, 90);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(96, 93);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // frmDangNhap
             // 
             this.AcceptButton = this.btnDangNhap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
-            this.ClientSize = new System.Drawing.Size(441, 168);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(462, 465);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.txtMatKhau);
@@ -112,11 +140,14 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmDangNhap_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,7 +159,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.TextBox txtMatKhau;
-        private System.Windows.Forms.Button btnDangNhap;
-        private System.Windows.Forms.Button btnThoat;
+        private MaterialSkin.Controls.MaterialButton btnDangNhap;
+        private MaterialSkin.Controls.MaterialButton btnThoat;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

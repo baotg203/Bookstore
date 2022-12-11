@@ -12,10 +12,11 @@ using System.Windows.Forms;
 using System.Data.OleDb;
 using System.IO;
 using System.Diagnostics;
+using MaterialSkin.Controls;
 
 namespace GUI
 {
-    public partial class frmQuanLyTheLoai : Form
+    public partial class frmQuanLyTheLoai : MaterialForm
     {
         TheLoai_DTO tlHienTai = new TheLoai_DTO();
         

@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmDoiMatKhau : Form
+    public partial class frmDoiMatKhau : MaterialForm
     {
         DoiMatKhau_BUS LogicDoimatkhau = new DoiMatKhau_BUS();
         DoiMatKhau_DTO ObjDoimatkhau = new DoiMatKhau_DTO();
@@ -23,13 +24,11 @@ namespace GUI
 
         private void frmDoiMatKhau_FormClosing(object sender, FormClosingEventArgs e)
         {
-            e.Cancel = true;
-            this.Hide();
         }
 
         private void butThoat_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void butXoatrang_Click(object sender, EventArgs e)
@@ -82,7 +81,7 @@ namespace GUI
                             txtReMKmoi.Text = "";
                             DialogResult r = MessageBox.Show("Đã đổi mật khẩu thành công","Thành Công",MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
                             if (r == DialogResult.OK)
-                                Close();
+                                Hide();
                         }
                     }
                 }

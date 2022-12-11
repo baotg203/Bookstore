@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmThayDoiQuyDinh : Form
+    public partial class frmThayDoiQuyDinh : MaterialForm
     {
         public frmThayDoiQuyDinh()
         {

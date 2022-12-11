@@ -1,5 +1,7 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,12 +14,21 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmManHinhChinh : Form
+    public partial class frmManHinhChinh : MaterialForm
     {
         DangNhap_DTO Main = new DangNhap_DTO();
         public frmManHinhChinh()
         {
             InitializeComponent();
+            FormSettings();
+        }
+        public void FormSettings()
+        {
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.AddFormToManage(this);
+            materialSkinManager.EnforceBackcolorOnAllComponents = false;
+            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo800, Primary.Indigo900, Primary.Indigo500, Accent.LightBlue200, TextShade.WHITE);
         }
         public void hienthi(int q)
         {
@@ -375,10 +386,7 @@ namespace GUI
         
         private void frmManHinhChinh_FormClosing(object sender, FormClosingEventArgs e)
         {
-            CapNhatPhatSinhTonCuoi();
-            CapNhatPhatSinhNoCuoi();
-            foreach (Form frm in this.MdiChildren)
-                frm.Hide();
+            this.Close();
         }
 
         private void trơGiupToolStripMenuItem_Click(object sender, EventArgs e)

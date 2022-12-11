@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{38861061-4077-4EDF-A641-CC7D2591CFB0}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{11BE619F-1049-4AC9-AA51-61777699516B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{574693F6-50A7-46FB-85FE-B1AF02AAD932}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Release", "Release\Release.vdproj", "{F1A5726A-68CA-42FF-B2AC-164503D78646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,13 @@ Global
 		{574693F6-50A7-46FB-85FE-B1AF02AAD932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{574693F6-50A7-46FB-85FE-B1AF02AAD932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{574693F6-50A7-46FB-85FE-B1AF02AAD932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A5726A-68CA-42FF-B2AC-164503D78646}.Debug|Any CPU.ActiveCfg = Debug
+		{F1A5726A-68CA-42FF-B2AC-164503D78646}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9134E13-C87F-4143-9D58-3B39AFF9B96E}
 	EndGlobalSection
 EndGlobal

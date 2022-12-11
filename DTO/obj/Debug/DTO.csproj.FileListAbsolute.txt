@@ -24,3 +24,15 @@ D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\DTO\obj\Debug\DTO.csproj.AssemblyRefere
 D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\DTO\obj\Debug\DTO.dll
 D:\Workspace\Code\C#\BOOKSTORE\BOOKSTORE\DTO\obj\Debug\DTO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\DTO\bin\Debug\DTO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\DTO\bin\Debug\DTO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\DTO\obj\Debug\DTO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore01\DTO\obj\Debug\DTO.pdb
+D:\Workspace\Code\C#\Bookstore\DTO\bin\Debug\DTO.dll
+D:\Workspace\Code\C#\Bookstore\DTO\bin\Debug\DTO.pdb
+D:\Workspace\Code\C#\Bookstore\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Workspace\Code\C#\Bookstore\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Workspace\Code\C#\Bookstore\DTO\obj\Debug\DTO.dll
+D:\Workspace\Code\C#\Bookstore\DTO\obj\Debug\DTO.pdb

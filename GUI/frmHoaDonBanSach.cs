@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmHoaDonBanSach : Form
+    public partial class frmHoaDonBanSach : MaterialForm
     {
         public static string maKH;
         public static string maSach;
@@ -25,17 +26,17 @@ namespace GUI
 
         private void btnDong_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(570, 632);
+            this.Size = new Size(710, 934);
         }
 
         private void btnChiTiet_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(1132, 632);
+            this.Size = new Size(1443, 934);
         }
 
         private void frmHoaDonBanSach_Load(object sender, EventArgs e)
         {
-            this.Size = new Size(570, 632);
+            this.Size = new Size(710, 934);
             HienThiDanhSachHoaDon();
             HienThiDanhSachChiTietHoaDon();
             gChucNangThanhToan.Enabled = false;

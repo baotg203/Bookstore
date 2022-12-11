@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmQuanLyTaiKhoan : Form
+    public partial class frmQuanLyTaiKhoan : MaterialForm
     {
         private QuanLyTaiKhoan_DTO Obj_Qltk = new QuanLyTaiKhoan_DTO();
         private string quyencu;
@@ -29,8 +30,6 @@ namespace GUI
 
         private void frmQuanLyTaiKhoan_FormClosing(object sender, FormClosingEventArgs e)
         {
-            e.Cancel = true;
-            this.Hide();
         }        
         //Hàm ẩn hiện các txt, cmb
         void Enlable(bool a)
@@ -118,7 +117,7 @@ namespace GUI
 
         private void butXoa_Click(object sender, EventArgs e)
         {
-            if (txtTaikhoan.Text == frmDangNhap.taiKhoan)
+            if (txtTaikhoan.Text.ToLower() == frmDangNhap.taiKhoan.ToLower())
             {
                 MessageBox.Show("Bạn không thể xóa chính mình được!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -135,7 +134,7 @@ namespace GUI
 
         private void btnDong_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Hide();
         }
 
         private void dgvTaiKhoan_RowEnter(object sender, DataGridViewCellEventArgs e)
@@ -220,6 +219,11 @@ namespace GUI
                         }
                     }
             }
+        }
+
+        private void txtMatkhau_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

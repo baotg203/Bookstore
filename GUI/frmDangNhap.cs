@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmDangNhap : Form
+    public partial class frmDangNhap : MaterialForm
     {
         DangNhap_DTO ObjDangnhap = new DangNhap_DTO();
         public frmDangNhap()
@@ -35,7 +36,7 @@ namespace GUI
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
@@ -65,7 +66,7 @@ namespace GUI
                     MessageBox.Show("Đăng nhập thành công!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     Run_MAIN(int.Parse(maQuyen));
 
-                    this.Close();
+                    this.Hide();
                 }
                 else
                 {
