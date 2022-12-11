@@ -96,3 +96,14 @@ D:\Workspace\Code\C#\Bookstore\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\Workspace\Code\C#\Bookstore\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\Workspace\Code\C#\Bookstore\BUS\obj\Debug\BUS.dll
 D:\Workspace\Code\C#\Bookstore\BUS\obj\Debug\BUS.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\bin\Debug\BUS.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\bin\Debug\BUS.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\bin\Debug\DAO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\bin\Debug\DTO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\bin\Debug\DAO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\bin\Debug\DTO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\obj\Debug\BUS.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\BUS\obj\Debug\BUS.pdb

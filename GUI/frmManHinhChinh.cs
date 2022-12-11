@@ -17,6 +17,8 @@ namespace GUI
     public partial class frmManHinhChinh : MaterialForm
     {
         DangNhap_DTO Main = new DangNhap_DTO();
+        //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
         public frmManHinhChinh()
         {
             InitializeComponent();
@@ -52,7 +54,7 @@ namespace GUI
                 quanLyTaiKhoanToolStripMenuItem.Enabled = true;
                 quanLyToolStripMenuItem.Enabled = true;
                 traCưuToolStripMenuItem.Enabled = true;
-                lâpBaoCaoToolStripMenuItem.Enabled = true;              
+                lâpBaoCaoToolStripMenuItem.Enabled = true;
             }
             else if (q == 2)
             {
@@ -68,13 +70,13 @@ namespace GUI
                 quanLyĐâuSachToolStripMenuItem.Enabled = true;
                 thêLoaiToolStripMenuItem.Enabled = true;
 
-             
+
                 đăngXuâtToolStripMenuItem.Enabled = true;
                 đôiMâtKhâuToolStripMenuItem.Enabled = true;
                 quanLyTaiKhoanToolStripMenuItem.Enabled = true;
                 quanLyToolStripMenuItem.Enabled = true;
                 traCưuToolStripMenuItem.Enabled = true;
-                lâpBaoCaoToolStripMenuItem.Enabled = true;    
+                lâpBaoCaoToolStripMenuItem.Enabled = true;
 
                 khachHangToolStripMenuItem.Enabled = false;
                 hoaĐơnBanSachToolStripMenuItem.Enabled = false;
@@ -225,7 +227,7 @@ namespace GUI
             int n = dt.Rows.Count;
             if (dt.Rows.Count > 0)
             {
-                for (int i = 0; i<n; i++)
+                for (int i = 0; i < n; i++)
                 {
                     r.MaSach = int.Parse(dt.Rows[i].ItemArray[0].ToString());
                     if (BaoCaoTon_BUS.CheckThongTin(r) == false)
@@ -272,6 +274,7 @@ namespace GUI
             CapNhatNoDau();
             //Hiển thị với quyền 4 (ko có trong CSDL <=> Khách)
             hienthi(4);
+            Program.frm_Dangnhap = new frmDangNhap();
             Program.frm_Dangnhap.MdiParent = this;
             Program.frm_Dangnhap.Run_MAIN = new frmDangNhap.RunMAIN(hienthi);
             Program.frm_Dangnhap.Show();
@@ -279,19 +282,22 @@ namespace GUI
 
         private void đăngNhâpToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Program.frm_Dangnhap = new frmDangNhap();
             Program.frm_Dangnhap.MdiParent = this;
             Program.frm_Dangnhap.Run_MAIN = new frmDangNhap.RunMAIN(hienthi);
-            Program.frm_Dangnhap.Show(); 
+            Program.frm_Dangnhap.Show();
         }
 
         private void đôiMâtKhâuToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Program.frm_Doimatkhau = new frmDoiMatKhau();
             Program.frm_Doimatkhau.MdiParent = this;
             Program.frm_Doimatkhau.Show();
         }
 
         private void quanLyTaiKhoanToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Program.frm_Quanlytaikhoan = new frmQuanLyTaiKhoan();
             Program.frm_Quanlytaikhoan.MdiParent = this;
             Program.frm_Quanlytaikhoan.Show();
         }
@@ -306,6 +312,7 @@ namespace GUI
             }
 
             hienthi(4);
+            Program.frm_Dangnhap = new frmDangNhap();
             Program.frm_Dangnhap.MdiParent = this;
             Program.frm_Dangnhap.Run_MAIN = new frmDangNhap.RunMAIN(hienthi);
 
@@ -345,7 +352,7 @@ namespace GUI
                         }
                     }
                 }
-            }            
+            }
         }
         public void CapNhatPhatSinhNoCuoi()
         {
@@ -383,10 +390,13 @@ namespace GUI
                 }
             }
         }
-        
+
         private void frmManHinhChinh_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.Close();
+            CapNhatPhatSinhTonCuoi();
+            CapNhatPhatSinhNoCuoi();
+            foreach (Form frm in this.MdiChildren)
+                frm.Hide();
         }
 
         private void trơGiupToolStripMenuItem_Click(object sender, EventArgs e)

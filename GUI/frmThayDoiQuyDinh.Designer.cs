@@ -570,10 +570,9 @@
             // 
             // frmThayDoiQuyDinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
-            this.ClientSize = new System.Drawing.Size(815, 884);
+            this.ClientSize = new System.Drawing.Size(831, 923);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnXoaTrang);
             this.Controls.Add(this.btnMacDinh);

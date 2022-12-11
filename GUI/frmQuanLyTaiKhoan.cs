@@ -21,22 +21,18 @@ namespace GUI
         {
             Obj_Qltk.TaiKhoan = txtTaikhoan.Text;
             Obj_Qltk.MatKhau = txtMatkhau.Text;
-            Obj_Qltk.MaQuyen = int.Parse(cboQuyen.SelectedValue.ToString());                           
+            Obj_Qltk.MaQuyen = int.Parse(cboQuyen.SelectedValue.ToString());
         }
         public frmQuanLyTaiKhoan()
         {
             InitializeComponent();
         }
-
-        private void frmQuanLyTaiKhoan_FormClosing(object sender, FormClosingEventArgs e)
-        {
-        }        
         //Hàm ẩn hiện các txt, cmb
         void Enlable(bool a)
         {
             txtTaikhoan.ReadOnly = !a;
             txtMatkhau.ReadOnly = !a;
-          
+
             cboQuyen.Enabled = a;
             btnLuu.Enabled = a;
             btnKhongluu.Enabled = a;
@@ -64,9 +60,9 @@ namespace GUI
         {
             hienthi();
         }
-        
+
         private void butLuu_Click(object sender, EventArgs e)
-        {           
+        {
             if (btnSua.Enabled == false)
             {
                 if (txtTaikhoan.Text == "" || txtMatkhau.Text == "")
@@ -83,7 +79,7 @@ namespace GUI
                         string ketQua = QuanLyTaiKhoan_BUS.ThemTaikhoan(Obj_Qltk);
                         if (ketQua != "Success")
                         {
-                            MessageBox.Show(ketQua,"Lỗi");
+                            MessageBox.Show(ketQua, "Lỗi");
                             return;
                         }
                         hienthi();
@@ -94,25 +90,25 @@ namespace GUI
             {
                 if (txtMatkhau.Text == "")
                     MessageBox.Show("Không được bỏ trống mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                else                   
+                else
                         if (quyencu == "Quản lý nhà sách" && quyencu != cboQuyen.Text && txtTaikhoan.Text == frmDangNhap.taiKhoan)
-                        {
-                            MessageBox.Show("Bạn không thể sửa quyền của chính mình vì bạn là admin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                {
+                    MessageBox.Show("Bạn không thể sửa quyền của chính mình vì bạn là admin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    hienthi();
+                }
+                else
+                {
+
+                    if (MessageBox.Show("Bạn thực sự muốn sửa tài khoản này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                    {
+
+                        //load đối tượng
+                        Load_Obj();
+                        if (QuanLyTaiKhoan_BUS.SuaTaikhoan(Obj_Qltk) == "Success")
                             hienthi();
-                        }
-                        else
-                        {
-
-                            if (MessageBox.Show("Bạn thực sự muốn sửa tài khoản này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-                            {
-
-                                //load đối tượng
-                                Load_Obj();
-                                if (QuanLyTaiKhoan_BUS.SuaTaikhoan(Obj_Qltk) == "Success")
-                                    hienthi();
-                            }
-                        }
-             }
+                    }
+                }
+            }
         }
 
         private void butXoa_Click(object sender, EventArgs e)
@@ -123,18 +119,18 @@ namespace GUI
             }
             else
                 if (MessageBox.Show("Bạn thực sự muốn xóa tài khoản này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                Load_Obj();
+                if (QuanLyTaiKhoan_BUS.XoaTaikhoan(Obj_Qltk) == "Success")
                 {
-                    Load_Obj();
-                    if (QuanLyTaiKhoan_BUS.XoaTaikhoan(Obj_Qltk) == "Success")
-                    {
-                        hienthi();
-                    }
+                    hienthi();
                 }
+            }
         }
 
         private void btnDong_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Close();
         }
 
         private void dgvTaiKhoan_RowEnter(object sender, DataGridViewCellEventArgs e)
@@ -166,7 +162,7 @@ namespace GUI
             Enlable(true);
             btnThem.Enabled = false;
             btnXoa.Enabled = false;
-            txtTaikhoan.ReadOnly = true;     
+            txtTaikhoan.ReadOnly = true;
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -199,25 +195,25 @@ namespace GUI
                     MessageBox.Show("Không được bỏ trống mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 else
                     if (quyencu == "Quản lý nhà sách" && quyencu != cboQuyen.Text && txtTaikhoan.Text == frmDangNhap.taiKhoan)
+                {
+                    MessageBox.Show("Bạn không thể sửa quyền của chính mình vì bạn là admin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    hienthi();
+                }
+                else
+                {
+                    if (MessageBox.Show("Bạn thực sự muốn sửa tài khoản này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                     {
-                        MessageBox.Show("Bạn không thể sửa quyền của chính mình vì bạn là admin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                        //load đối tượng
+                        Load_Obj();
+                        string ketQua = QuanLyTaiKhoan_BUS.SuaTaikhoan(Obj_Qltk);
+                        if (ketQua != "Success")
+                        {
+                            MessageBox.Show(ketQua, "Lỗi");
+                        }
                         hienthi();
                     }
-                    else
-                    {
-                        if (MessageBox.Show("Bạn thực sự muốn sửa tài khoản này?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-                        {
-
-                            //load đối tượng
-                            Load_Obj();
-                            string ketQua = QuanLyTaiKhoan_BUS.SuaTaikhoan(Obj_Qltk);
-                            if ( ketQua != "Success")
-                            {
-                                MessageBox.Show(ketQua,"Lỗi");
-                            }
-                            hienthi();
-                        }
-                    }
+                }
             }
         }
 

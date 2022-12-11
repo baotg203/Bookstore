@@ -27,16 +27,9 @@ namespace GUI
         public static string taiKhoan;
         public static string matKhau;
         public static string maQuyen;
-
-        private void frmDangNhap_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            e.Cancel = true;
-            this.Hide();
-        }
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Close();
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
@@ -66,7 +59,7 @@ namespace GUI
                     MessageBox.Show("Đăng nhập thành công!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     Run_MAIN(int.Parse(maQuyen));
 
-                    this.Hide();
+                    Close();
                 }
                 else
                 {

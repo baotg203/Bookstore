@@ -76,3 +76,12 @@ D:\Workspace\Code\C#\Bookstore\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 D:\Workspace\Code\C#\Bookstore\DAO\obj\Debug\DAO.csproj.CopyComplete
 D:\Workspace\Code\C#\Bookstore\DAO\obj\Debug\DAO.dll
 D:\Workspace\Code\C#\Bookstore\DAO\obj\Debug\DAO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\bin\Debug\DAO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\bin\Debug\DAO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\bin\Debug\DTO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\bin\Debug\DTO.pdb
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\obj\Debug\DAO.dll
+D:\STUDY\DHSP\Year2\HK1\NhapMonCNPM\Project cuối kì\Bookstore\DAO\obj\Debug\DAO.pdb

@@ -16,9 +16,6 @@ namespace GUI
         public static void khoitao()
         {
             frm_MAIN = new frmManHinhChinh();
-            frm_Dangnhap = new frmDangNhap();
-            frm_Doimatkhau = new frmDoiMatKhau();
-            frm_Quanlytaikhoan = new frmQuanLyTaiKhoan();
         }
         /// <summary>
         /// The main entry point for the application.
@@ -29,7 +26,7 @@ namespace GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             khoitao();
-            Application.Run(new FrmSplash());
+            Application.Run(new frmManHinhChinh());
         }
     }
 }
