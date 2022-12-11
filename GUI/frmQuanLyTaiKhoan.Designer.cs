@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanLyTaiKhoan));
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,7 +59,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(352, 135);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 19);
+            this.label3.Size = new System.Drawing.Size(66, 22);
             this.label3.TabIndex = 35;
             this.label3.Text = "Quyền:";
             // 
@@ -70,7 +71,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(33, 218);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 19);
+            this.label2.Size = new System.Drawing.Size(88, 22);
             this.label2.TabIndex = 34;
             this.label2.Text = "Mật khẩu:";
             // 
@@ -82,7 +83,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(33, 135);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 19);
+            this.label1.Size = new System.Drawing.Size(94, 22);
             this.label1.TabIndex = 30;
             this.label1.Text = "Tài khoản:";
             // 
@@ -101,6 +102,7 @@
             this.dgvTaiKhoan.Location = new System.Drawing.Point(7, 19);
             this.dgvTaiKhoan.Name = "dgvTaiKhoan";
             this.dgvTaiKhoan.ReadOnly = true;
+            this.dgvTaiKhoan.RowHeadersWidth = 51;
             this.dgvTaiKhoan.Size = new System.Drawing.Size(595, 294);
             this.dgvTaiKhoan.TabIndex = 51;
             this.dgvTaiKhoan.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTaiKhoan_RowEnter);
@@ -109,6 +111,7 @@
             // 
             this.colTaiKhoan.DataPropertyName = "TaiKhoan";
             this.colTaiKhoan.HeaderText = "Tài khoản";
+            this.colTaiKhoan.MinimumWidth = 6;
             this.colTaiKhoan.Name = "colTaiKhoan";
             this.colTaiKhoan.ReadOnly = true;
             this.colTaiKhoan.Width = 200;
@@ -117,6 +120,7 @@
             // 
             this.colMatKhau.DataPropertyName = "MatKhau";
             this.colMatKhau.HeaderText = "Mật khẩu";
+            this.colMatKhau.MinimumWidth = 6;
             this.colMatKhau.Name = "colMatKhau";
             this.colMatKhau.ReadOnly = true;
             this.colMatKhau.Width = 200;
@@ -126,6 +130,7 @@
             this.colQuyen.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colQuyen.DataPropertyName = "MaQuyen";
             this.colQuyen.HeaderText = "Quyền";
+            this.colQuyen.MinimumWidth = 6;
             this.colQuyen.Name = "colQuyen";
             this.colQuyen.ReadOnly = true;
             // 
@@ -137,7 +142,7 @@
             this.label4.ForeColor = System.Drawing.Color.Navy;
             this.label4.Location = new System.Drawing.Point(146, 76);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(354, 36);
+            this.label4.Size = new System.Drawing.Size(447, 45);
             this.label4.TabIndex = 53;
             this.label4.Text = "QUẢN LÝ TÀI KHOẢN";
             // 
@@ -367,7 +372,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
-            this.ClientSize = new System.Drawing.Size(646, 798);
+            this.ClientSize = new System.Drawing.Size(664, 845);
             this.Controls.Add(this.btnKhongluu);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.cboQuyen);
@@ -384,6 +389,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmQuanLyTaiKhoan";

@@ -344,7 +344,6 @@
     <None Include="Resources\icons8-royal-48.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icons8-bookstore-66.ico" />
     <Content Include="Resources\icons8-bookstore-66.ico" />
     <Content Include="Resources\icons8-bookstore-66.png" />
   </ItemGroup>

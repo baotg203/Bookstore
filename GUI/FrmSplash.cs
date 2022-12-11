@@ -28,9 +28,11 @@ namespace GUI
             {
                 startP = 0;
                 frmManHinhChinh user = new frmManHinhChinh();
-                user.Show();
-                this.Hide();
                 timer1.Stop();
+                this.Hide();
+                user.ShowDialog();
+                this.Close();
+                
             }
         }
     }
